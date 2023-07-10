@@ -33,7 +33,7 @@ const Order = () => {
                     <div className=" mt-5 pt-4">
                       <Order_1 />
                     </div>
-                    <p className="ff_mons fw-normal fs_1x6l text_white mt-3 pt-1 max_w_290">
+                    <p className="ff_mons fw-normal fs_1x6l text_white mt-3 pt-1  max_w_290">
                       Register for an account first, then head on other to our
                       shop selection
                     </p>
