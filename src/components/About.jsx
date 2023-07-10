@@ -41,7 +41,7 @@ const About = () => {
               </div>
             </div>
           </Col>
-          <Col lg={6}>
+          <Col lg={6} className='d-flex justify-content-end flex-column align-items-end'>
             <div className="d_grid gap-3 ">
               <div className="grid _item1 text-end pt-3">
                 <img className="w_sm_100" src={img1} alt="img1" />

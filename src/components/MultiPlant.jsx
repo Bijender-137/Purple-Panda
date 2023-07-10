@@ -15,7 +15,7 @@ const MultiPlant = () => {
     <section className="bg_blue py-5 mt_m1 overflo w-hidden">
       <Container className="pb-5">
         <Row className="align-items-center">
-          <Col lg={5} className="position-relative">
+          <Col xs={10} lg={5} className="position-relative mx-auto">
             <div>
               <img
                 className="w-100 position-relative z-2"
@@ -31,7 +31,7 @@ const MultiPlant = () => {
           </Col>
           <Col lg={7} className="position-relative z-2 pt-lg-0 pt-4">
             <Row>
-              <Col lg={6} className="ps-xxl-5">
+              <Col sm={6} className="ps-xxl-5">
                 <div className="ps-4">
                   <div className="d-flex align-items-center">
                     <img src={img1} alt="img1" />
@@ -39,19 +39,19 @@ const MultiPlant = () => {
                       Same Day Delivery
                     </p>
                   </div>
-                  <div className="d-flex align-items-center pt-4">
+                  <div className="d-flex align-items-center pt-3 pt-md-4">
                     <img src={img2} alt="img1" />
                     <p className="ff_mons fw-semibold fs_1x6l clr_white mb-0 ps-2">
                       Discreet packaging
                     </p>
                   </div>
-                  <div className="d-flex align-items-center pt-4">
+                  <div className="d-flex align-items-center pt-3 pt-md-4">
                     <img src={img3} alt="img1" />
                     <p className="ff_mons fw-semibold fs_1x6l clr_white mb-0 ps-2">
                       Premium Marijuana Buds
                     </p>
                   </div>
-                  <div className="d-flex align-items-center pt-4">
+                  <div className="d-flex align-items-center pt-3 pt-md-4">
                     <img src={img4} alt="img1" />
                     <p className="ff_mons fw-semibold fs_1x6l clr_white mb-0 ps-2">
                       Collect Rewards
@@ -59,21 +59,21 @@ const MultiPlant = () => {
                   </div>
                 </div>
               </Col>
-              <Col lg={6}>
-                <div className="ms-4 pt-lg-0 pt-4">
+              <Col sm={6}>
+                <div className="ms-4 pt-sm-0 pt-4">
                   <div className="d-flex align-items-center ">
                     <img src={img5} alt="img1" />
                     <p className="ff_mons fw-semibold fs_1x6l clr_white mb-0 ps-2">
                       Canada Wide Mail Orders
                     </p>
                   </div>
-                  <div className="d-flex align-items-center pt-4">
+                  <div className="d-flex align-items-center pt-3 pt-md-4">
                     <img src={img6} alt="img1" />
                     <p className="ff_mons fw-semibold fs_1x6l clr_white mb-0 ps-2">
                       19+
                     </p>
                   </div>
-                  <div className="d-flex align-items-center pt-4">
+                  <div className="d-flex align-items-center pt-3 pt-md-4">
                     <img src={img7} alt="img1" />
                     <p className="ff_mons fw-semibold fs_1x6l clr_white mb-0 ps-2">
                       Secure Transactions
