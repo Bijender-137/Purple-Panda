@@ -15,7 +15,7 @@ const MultiPlant = () => {
     <section className="bg_blue py-5 mt_m1 overflo w-hidden">
       <Container className="pb-5">
         <Row className="align-items-center">
-          <Col xs={10} lg={5} className="position-relative mx-auto">
+          <Col xs={10} lg={5} className="position-relative mx-auto"data-aos="fade-right">
             <div>
               <img
                 className="w-100 position-relative z-2"
@@ -29,10 +29,10 @@ const MultiPlant = () => {
               />
             </div>
           </Col>
-          <Col lg={7} className="position-relative z-2 pt-lg-0 pt-4">
+          <Col lg={7} className="position-relative z-2 pt-lg-0 pt-4" >
             <Row>
               <Col sm={6} className="ps-xxl-5">
-                <div className="ps-4">
+                <div className="ps-4"data-aos="fade-down">
                   <div className="d-flex align-items-center">
                     <img src={img1} alt="img1" />
                     <p className="ff_mons fw-semibold fs_1x6l clr_white mb-0 ps-2">
@@ -60,7 +60,7 @@ const MultiPlant = () => {
                 </div>
               </Col>
               <Col sm={6}>
-                <div className="ms-4 pt-sm-0 pt-4">
+                <div className="ms-4 pt-sm-0 pt-4"data-aos="fade-left">
                   <div className="d-flex align-items-center ">
                     <img src={img5} alt="img1" />
                     <p className="ff_mons fw-semibold fs_1x6l clr_white mb-0 ps-2">

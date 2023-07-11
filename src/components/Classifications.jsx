@@ -8,20 +8,20 @@ import Flower_img from "../assets/img/png/classification_flower_bg.png";
 const Classifications = () => {
   return (
     <>
-      <section className="classification_bg_img py-5">
+      <section className="classification_bg_img py-5"id="Classifications">
         <Container>
           <Row>
             <Col lg={6}>
-              <div className="position-relative z_index">
+              <div className="position-relative z_index"data-aos="flip-right">
                 <img
                   className="position-absolute z_index_minus flower_img_classification"
                   src={Flower_img}
                   alt="Flower_img"
                 />
-                <div className="classification_box_shadow position-relative z_ index">
+                <div className="classification_box_shadow position-relative z_ index before_line overflow-hidden">
                   <div className="px-5 ms-3 py-4 my-3">
                     <h2 className="ff_philo fw-bold fs_4x8l text-white text_border mb-0">
-                      Our <span className="clr_shop_now class_ text_clr">
+                      Our <span className="clr_shop_now">
                         Classifications
                       </span>
                     </h2>

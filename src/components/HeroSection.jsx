@@ -7,12 +7,12 @@ import Panda_bottom from "../assets/img/png/panda_bottom_border.png"
 const HeroSection = () => {
   return (
     <>
-      <section className="hero_sec_bg_img vh_100_lg d-flex flex-column pb-5">
+      <section className="hero_sec_bg_img vh_100_lg d-flex flex-column pb-5"id="Home">
         <Mynav />
         <Container className="d-flex flex-column justify-content-center align-items-center flex-grow-1">
           <Row className="align-items-center flex-column-reverse flex-lg-row">
             <Col  lg={6}>
-              <div className="text-center mt-4 mt-lg-0 text-lg-start">
+              <div className="text-center mt-4 mt-lg-0 text-lg-start"data-aos="fade-right">
                 <h1 className="ff_philo fw-bold text-white fs_8xl mb-0">
                   Setting a <span className="clr_shop_now">‘High’</span> Standard
                 </h1>
@@ -21,13 +21,13 @@ const HeroSection = () => {
                   online weed dispensary Canada has ever seen. We believe in
                   good products, fair pricing, and top-notch customer service
                 </p>
-                <button className="ff_mons fw-bold text-white fs_2xl border-0 btn_nav mt-3 mt-xl-5">
+                <button className="ff_mons fw-bold text-white fs_2xl border-0 btn_nav mt-3 mt-xl-5 trasition">
                   SIGN IN
                 </button>
               </div>
             </Col>
             <Col xs={10} sm={8} lg={6}>
-              <div className="d-flex justify-content-center position-relative">
+              <div className="d-flex justify-content-center position-relative"data-aos="fade-left">
                 <img className="position-absolute panda_bottom_border w-100" src={Panda_bottom} alt="Panda_bottom" />
                 <img className="position-absolute git_img_position" src={Gif} alt="Gif" />
                 <img className="w-100" src={Panda_1} alt="Panda_1" />

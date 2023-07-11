@@ -8,7 +8,7 @@ const Blogs = () => {
     <>
       <section className="blogs_sec_bg_img py-5">
         <Container className="pt-lg-5">
-          <div className="text-center">
+          <div className="text-center"data-aos="fade-down">
             <h2 className="fw-bold ff_philo fs_4x8l text-white">
               Latest <span className="clr_shop_now">Blogs</span> And{" "}
               <span className="clr_shop_now">News</span>
@@ -16,7 +16,7 @@ const Blogs = () => {
           </div>
           <Row className="mt-3 mt-lg-5 pt-2 justify-content-center">
             <Col sm={6} lg={4}>
-              <div className="popular_box_shadow px-2 pt-2 pb-4 h-100">
+              <div className="popular_box_shadow px-2 pt-2 pb-4 h-100"data-aos="fade-right">
                 <img className="w-100 pt-1" src={Blog_img_1} alt="Blog_img_1" />
                 <div className="px-xl-4 mt-2 pt-1">
                   <p className="ff_mons fw-normal fs_1x2l text-white">
@@ -34,7 +34,7 @@ const Blogs = () => {
               </div>
             </Col>
             <Col sm={6} lg={4}>
-              <div className="popular_box_shadow px-2 pt-2 pb-4 h-100 mt-4 mt-sm-0">
+              <div className="popular_box_shadow px-2 pt-2 pb-4 h-100 mt-4 mt-sm-0"data-aos="fade-up">
                 <img className="w-100 pt-1" src={Blog_img_2} alt="Blog_img_1" />
                 <div className="px-xl-4 mt-2 pt-1">
                   <p className="ff_mons fw-normal fs_1x2l text-white">
@@ -51,7 +51,7 @@ const Blogs = () => {
               </div>
             </Col>
             <Col sm={6} lg={4}>
-              <div className="popular_box_shadow px-2 pt-2 pb-4 h-100 mt-4 mt-lg-0">
+              <div className="popular_box_shadow px-2 pt-2 pb-4 h-100 mt-4 mt-lg-0"data-aos="fade-left">
                 <img className="w-100 pt-1" src={Blog_img_3} alt="Blog_img_1" />
                 <div className="px-xl-4 mt-2 pt-1">
                   <p className="ff_mons fw-normal fs_1x2l text-white">

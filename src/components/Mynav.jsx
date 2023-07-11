@@ -3,6 +3,7 @@ import Gift_img from "../assets/img/svg/gift_img.svg";
 import { Container } from "react-bootstrap";
 import Logo from "../assets/img/svg/logo.svg";
 import { Search_logo, String } from "./common/Helper";
+import { Link } from "react-router-dom";
 const Mynav = () => {
   const [open, setopen] = useState(true);
   if (open) {
@@ -55,44 +56,45 @@ const Mynav = () => {
                   className={
                     open === false
                       ? "p-0 m-0 d-flex align-items-center nav-sec-2 flex-column justify-content-center gap-4 flex-lg-row"
-                      : "p-0 m-0 d-flex align-items-center nav-sec flex-column justify-content-center gap-4 flex-lg-row gap-lg-0"
+                      : "p-0 m-0 d-flex align-items-center nav-sec flex-column justify-content-center gap-4 flex-lg-row  gap-lg-0"
                   }
                 >
                   <li>
-                    <a
-                      href="#"
+                    < Link to="/"
+                       onClick={() => setopen(!open)}
+                    
                       className="ff_mons fs_1x6l fw-normal text-white"
                     >
                       HOME
-                    </a>
+                    </Link>
                   </li>
                   <li className="ps-lg-4 ms-xl-3">
-                    <a
-                      href="#"
+                    <a  onClick={() => setopen(!open)}
+                      href="#shop"
                       className="ff_mons fs_1x6l fw-normal text-white"
                     >
                       SHOP
                     </a>
                   </li>
                   <li className="ps-lg-4 ms-xl-3">
-                    <a
-                      href="#"
+                    <a onClick={() => setopen(!open)}
+                      href="#about"
                       className="ff_mons fs_1x6l fw-normal text-white"
                     >
                       ABOUT
                     </a>
                   </li>
                   <li className="ps-lg-4 ms-xl-3">
-                    <a
-                      href="#"
+                    <Link to="/ContactPage" onClick={() => setopen(!open)}
+                      href="#Contact"
                       className="ff_mons fs_1x6l fw-normal text-white"
                     >
                       CONTACT
-                    </a>
+                    </Link>
                   </li>
                   <li className="ps-lg-4 ms-xl-3 me-lg-1">
-                    <a
-                      href="#"
+                    <a onClick={() => setopen(!open)}
+                      href="#Alert"
                       className="ff_mons fs_1x6l fw-normal text-white"
                     >
                       FAQ
@@ -106,15 +108,16 @@ const Mynav = () => {
                     />
                     <Search_logo />
                   </div>
-                  <a
-                    href="#" className="ff_mons fw_bolder mb-0 clr_shop_now fs_1x6l d-lg-none" >
+                  <a onClick={() => setopen(!open)}
+                    href="#Classifications"
+                    className="ff_mons fw_bolder mb-0 clr_shop_now fs_1x6l d-lg-none"
+                  >
                     Shop Now
                   </a>
                   <div className="ms-lg-4">
                     <String />
                   </div>
-
-                  <button className="ff_mons fw-bold text-white fs_2xl border-0 btn_nav ms-lg-4">
+                  <button className="ff_mons fw-bold text-white fs_2xl border-0 btn_nav ms-lg-4 trasition">
                     SIGN IN
                   </button>
                   <div className="d-flex align-items-center input_parent pe-3 d-sm-none">

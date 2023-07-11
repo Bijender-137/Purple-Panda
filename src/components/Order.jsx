@@ -6,9 +6,9 @@ import circle_img from "../assets/img/png/circle_img.png";
 const Order = () => {
   return (
     <>
-      <section className="py-5">
+      <section className="py-5"id="shlg">
         <Container>
-          <div className="text-center">
+          <div className="text-center"data-aos="fade-down">
             <h2 className="fw-bold ff_philo fs_4x8l text-white">
               Canada Wide <span className="clr_shop_now">Mail Orders</span>
             </h2>
@@ -21,10 +21,10 @@ const Order = () => {
             </p>
           </div>
           <Row className=" mt-5 pt-5">
-            <Col sm={4}>
-              <div className="order_box_shadow pb-5 position-relative">
-                <div className=" circle d-flex justify-content-center mt-3 align-items-center position-absolute start-50 top-0 translate-middle">
-                  <p className=" ff_mons fw-semibold fs_3x2l clr_purple mb-0">
+            <Col xs={10} sm={6} lg={4} className="mx-auto">
+              <div className="order_box_shadow pb-5 position-relative"data-aos="fade-right">
+                <div className=" circle d-flex justify-content-center mt-3 align-items-center position-absolute start-50 top-0 translate-middle scale transition">
+                  <p className=" ff_mons fw-semibold fs_3x2l clr_purple mb-0 ">
                     01
                   </p>
                 </div>
@@ -41,9 +41,9 @@ const Order = () => {
                 </div>
               </div>
             </Col>
-            <Col sm={4}>
-              <div className="order_box_shadow pb-5 position-relative">
-                <div className=" circle d-flex justify-content-center mt-3 align-items-center position-absolute start-50 top-0 translate-middle">
+            <Col xs={10} sm={6} lg={4} className="mx-auto mt-5 pt-5 mt-sm-0 pt-sm-0">
+              <div className="order_box_shadow pb-5 position-relative"data-aos="fade-up">
+                <div className=" circle d-flex justify-content-center mt-3 align-items-center position-absolute start-50 top-0 translate-middle scale transition">
                   <p className=" ff_mons fw-semibold fs_3x2l clr_purple mb-0">
                     02
                   </p>
@@ -61,9 +61,9 @@ const Order = () => {
                 </div>
               </div>
             </Col>
-            <Col sm={4}>
-              <div className="order_box_shadow pb-5 position-relative">
-                <div className=" circle d-flex justify-content-center mt-3 align-items-center position-absolute start-50 top-0 translate-middle">
+            <Col xs={10} sm={6} lg={4} className="mx-auto mt-5 pt-5 mt-lg-0 pt-lg-0">
+              <div className="order_box_shadow pb-5 position-relative"data-aos="fade-left">
+                <div className=" circle d-flex justify-content-center mt-3 align-items-center position-absolute start-50 top-0 translate-middle scale transition">
                   <p className=" ff_mons fw-semibold fs_3x2l clr_purple mb-0">
                     03
                   </p>

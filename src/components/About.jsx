@@ -1,20 +1,22 @@
-import React from 'react'
-import { Col, Row } from 'react-bootstrap'
+import React from "react";
+import { Col, Row } from "react-bootstrap";
 import { Container } from "react-bootstrap";
-import img1 from "../assets/images/png/img1.png"
-import img2 from "../assets/images/png/img2.png"
-import img3 from "../assets/images/png/img3.png"
-import img4 from "../assets/images/png/img4.png"
-import img5 from "../assets/images/png/img5.png"
-
+import img1 from "../assets/images/png/img1.png";
+import img2 from "../assets/images/png/img2.png";
+import img3 from "../assets/images/png/img3.png";
+import img4 from "../assets/images/png/img4.png";
+import img5 from "../assets/images/png/img5.png";
 
 const About = () => {
   return (
-    <section className="about_bg py-5">
+    <section className="about_bg py-5" id="about">
       <Container>
         <Row className="align-items-center flex-lg-row flex-column-reverse">
           <Col lg={6} className="pt-lg-0 pt-4">
-            <div className="bg_blur py-md-5 py-4 px-xl-5 px-md-4 px-2 side_line position-relative text-lg-start text-center">
+            <div
+              className="bg_blur py-md-5 py-4 px-xl-5 px-md-4 px-2 side_line position-relative text-lg-start text-center"
+              data-aos="fade-right"
+            >
               <h1 className="ff_philo fs_4x8l fw-bold clr_white ps-3  mb-0">
                 About <span className="clr_linear">Us</span>
               </h1>
@@ -41,8 +43,10 @@ const About = () => {
               </div>
             </div>
           </Col>
-          <Col lg={6} className='d-flex justify-content-end flex-column align-items-end'>
-            <div className="d_grid gap-3 ">
+          <Col lg={6}
+            className="d-flex justify-content-end flex-column alignie"
+          >
+            <div className="d_grid gap-3 " data-aos="flip-left">
               <div className="grid _item1 text-end pt-3">
                 <img className="w_sm_100" src={img1} alt="img1" />
               </div>
@@ -65,6 +69,6 @@ const About = () => {
       </Container>
     </section>
   );
-}
+};
 
-export default About
+export default About;

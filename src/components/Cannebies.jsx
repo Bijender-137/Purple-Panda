@@ -9,21 +9,24 @@ import { Col, Container, Row } from 'react-bootstrap'
 const Cannebies = () => {
   return (
     <>
-      <section className="about_bg py-lg-5">
+      <section className="about_bg py-5 position-relative" id='Alert'>
+        <div className='position-absolute bg_circel end-0 top-0'></div>
         <Container>
-          <h1 className="ff_philo fs_4x8l fw-bold clr_white text-center">
-            Cannabis
-          </h1>
-          <p className="ff_mons fw_400 fs_1x6l clr_white mb-0 mx_812 mx-auto text-center">
-            While we stock all sorts of products to make you feel great, we’re
-            experts and lovers of cannabis at heart. We offer a wide range of
-            buds each with different highs, flavors, and aromas, so you can find
-            the perfect joint-filler, bowl-packer, or pipe clearer to suit your
-            tastes
-          </p>
+          <div data-aos="fade-up">
+            <h1 className="ff_philo fs_4x8l fw-bold clr_white text-center">
+              Cannabis
+            </h1>
+            <p className="ff_mons fw_400 fs_1x6l clr_white mb-0 mx_812 mx-auto text-center">
+              While we stock all sorts of products to make you feel great, we’re
+              experts and lovers of cannabis at heart. We offer a wide range of
+              buds each with different highs, flavors, and aromas, so you can find
+              the perfect joint-filler, bowl-packer, or pipe clearer to suit your
+              tastes
+            </p>
+          </div>
           <Row className="align-items-center flex-lg-row flex-column-reverse pt-5">
-            <Col lg={7} className="pt-lg-0 pt-4">
-              <div className="bg_blur py-md-5 py-4 px-xl-5 px-md-4 px-2 side_line position-relative">
+            <Col lg={7} className="pt-lg-0 pt-4" >
+              <div className="bg_blur py-md-5 py-4 px-xl-5 px-md-4 px-2 side_line position-relative overflow-hidden" data-aos="fade-right">
                 <h1 className="ff_mons fs_3x2l fw-semibold clr_white mb-0 text-lg-start text-center">
                   Strain <span className="clr_linear">Families</span>
                 </h1>
@@ -64,7 +67,7 @@ const Cannebies = () => {
               </div>
             </Col>
             <Col lg={5}>
-              <div className="d_grid gap-3 ">
+              <div className="d_grid gap-3 " data-aos="fade-left">
                 <div className="grid _item1 text-end pt-3">
                   <img className="w_sm_100" src={crd1} alt="img1" />
                 </div>

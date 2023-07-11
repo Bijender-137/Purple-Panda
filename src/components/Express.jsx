@@ -8,12 +8,12 @@ const Express = () => {
       <Container>
         <Row className='align-items-center'>
           <Col lg={6}>
-            <div>
+            <div data-aos="zoom-in">
               <img className='w-100' src={sideleaf} alt="sideleaf" />
             </div>
           </Col>
           <Col>
-            <div className="bg_blur  py-4 ps-4 pe-xl-5 px-md-4 px-2 side_line position-relative text-lg-start text-center">
+            <div className="bg_blur  py-4 ps-4 pe-xl-5 px-md-4 px-2 side_line position-relative text-lg-start text-center" data-aos="fade-left">
               <h1 className="ff_philo fs_4x8l fw-bold clr_white ps-3  mb-0 pe-xl-5">
                 <span className="clr_linear">Express</span> Cannabis Delivery
               </h1>

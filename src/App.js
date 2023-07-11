@@ -1,39 +1,58 @@
 import "./App.css";
+import "./Ak.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
-import '@splidejs/react-splide/css';
-import '@splidejs/react-splide/css/skyblue';
-import HeroSection from "./components/HeroSection";
-import Streats from "./components/Streats";
-import About from "./components/About";
-import OurRange from "./components/OurRange";
-import Express from "./components/Express";
-import Tronto from "./components/Tronto";
-import HighThought from "./components/HighThought";
-import MultiPlant from "./components/MultiPlant";
-import Order from "./components/Order";
-import Cannebies from "./components/Cannebies";
-import Classifications from "./components/Classifications";
-import Popular from "./components/Popular";
-import Blogs from "./components/Blogs";
+import "@splidejs/react-splide/css";
+import "@splidejs/react-splide/css/skyblue";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect, useState } from "react";
+import { Route, Routes } from "react-router-dom";
+import HomePage from "./components/HomePage";
+import ContactPage from "./components/ContactPage";
+import Nav_logo from "./assets/img/svg/logo.svg";
 function App() {
+  useEffect(() => {
+    Aos.init({
+      once: true,
+      duration: 1500,
+    });
+  }, []);
+  // return (
+  //   <div className="overflow-hidden">
+  //     <Routes>
+  //       <Route path="/" element={<HomePage />} />
+  //       <Route path="/ContactPage" element={<ContactPage />} />
+  //     </Routes>
+  //   </div>
+  // );
+  const [loader, setloader] = useState(false);
+  useEffect(() => {
+    setloader(true);
+    setTimeout(() => {
+      setloader(false);
+    }, 4000);
+  }, []);
+
   return (
     <>
-      <HeroSection />
-      <Streats />
-      <About />
-      <OurRange />
-      <Express />
-      <Tronto />
-      <HighThought />
-      <MultiPlant />
-      <Order />
-      <Cannebies />
-      <Classifications />
-      <Popular />
-      <Blogs/>
+      <>
+        {loader ? (
+          <div className="preloader-bg d-flex align-items-center justify-content-center">
+            <div className="preloader">
+              <img width={250} src={Nav_logo} alt="logo" />
+            </div>
+          </div>
+        ) : (
+          <>
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/ContactPage" element={<ContactPage />} />
+            </Routes>
+          </>
+        )}
+      </>
     </>
   );
 }
-
 export default App;

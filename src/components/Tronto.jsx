@@ -8,15 +8,17 @@ const Tronto = () => {
   return (
     <section className="bg_blue overflow-x-hidden py-lg-5 pt-4 mt_m1">
       <Container>
-        <h1 className="ff_mons fs_2x4l fw-semibold lh_156 clr_white mx_635 mx-auto text-center">
-          We’re based in both the{" "}
-          <span className="clr_linear">Greater Toronto Area,</span> with our
-          delivery service covering:
-        </h1>
-        <p className="ff_mons fs_1x6l fw-regular clr_white op_06 text-center mb-0">
-          If you’re in any of these cities and need a little pick me up, you
-          know where to go!
-        </p>
+        <div data-aos="zoom-in">
+          <h1 className="ff_mons fs_2x4l fw-semibold lh_156 clr_white mx_635 mx-auto text-center">
+            We’re based in both the{" "}
+            <span className="clr_linear">Greater Toronto Area,</span> with our
+            delivery service covering:
+          </h1>
+          <p className="ff_mons fs_1x6l fw-regular clr_white op_06 text-center mb-0">
+            If you’re in any of these cities and need a little pick me up, you
+            know where to go!
+          </p>
+        </div>
         <Row className='pt-lg-5 pt-4'>
           <Col md={6} className="position-relative">
             <img
@@ -24,7 +26,7 @@ const Tronto = () => {
               src={trontoleaf1}
               alt="trontoleaf1"
             />
-            <div className="bg_blur border_blur py-5 hovr_scal">
+            <div className="bg_blur border_blur py-5 hovr_scal" data-aos="fade-right">
               <div className="w_234 mx-auto py-4">
                 <div className="d-flex align-items-center">
                   <img src={dot} alt="dot" />
@@ -59,7 +61,7 @@ const Tronto = () => {
               src={trontoleaf2}
               alt="trontoleaf1"
             />
-            <div className="bg_blur border_blur py-5">
+            <div className="bg_blur border_blur py-5" data-aos="fade-left">
               <div className="w_234 mx-auto py-4">
                 <div className="d-flex align-items-center">
                   <img src={dot} alt="dot" />

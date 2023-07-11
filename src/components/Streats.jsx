@@ -44,13 +44,13 @@ const Streats = () => {
                   perPage: 2,
                 },
                 425: {
-                  perPage: 1,
+                  perPage: 2,
                 },
               },
             }}
             extensions={{ AutoScroll }}
           >
-            <SplideSlide>
+            <SplideSlide data-aos="flip-left">
               <div className="text-center img_hover_streats">
                 <img src={Street_1} alt="Street_1" />
                 <p className="text-white ff_philo fs_2x4l fw-bold mt-3">
@@ -58,7 +58,7 @@ const Streats = () => {
                 </p>
               </div>
             </SplideSlide>
-            <SplideSlide>
+            <SplideSlide data-aos="flip-left">
               <div className="text-center img_hover_streats">
                 <img src={Street_2} alt="Street_1" />
                 <p className="text-white ff_philo fs_2x4l fw-bold mt-3">
@@ -66,7 +66,7 @@ const Streats = () => {
                 </p>
               </div>
             </SplideSlide>
-            <SplideSlide>
+            <SplideSlide data-aos="flip-left">
               <div className="text-center img_hover_streats">
                 <img src={Street_3} alt="Street_1" />
                 <p className="text-white ff_philo fs_2x4l fw-bold mt-3">
@@ -74,13 +74,13 @@ const Streats = () => {
                 </p>
               </div>
             </SplideSlide>
-            <SplideSlide>
+            <SplideSlide data-aos="flip-up">
               <div className="text-center img_hover_streats">
                 <img src={Street_4} alt="Street_1" />
                 <p className="text-white ff_philo fs_2x4l fw-bold mt-3">CBD</p>
               </div>
             </SplideSlide>
-            <SplideSlide>
+            <SplideSlide data-aos="flip-right">
               <div className="text-center img_hover_streats">
                 <img src={Street_5} alt="Street_1" />
                 <p className="text-white ff_philo fs_2x4l fw-bold mt-3">
@@ -88,7 +88,7 @@ const Streats = () => {
                 </p>
               </div>
             </SplideSlide>
-            <SplideSlide>
+            <SplideSlide data-aos="flip-right">
               <div className="text-center img_hover_streats">
                 <img src={Street_6} alt="Street_1" />
                 <p className="text-white ff_philo fs_2x4l fw-bold mt-3">
@@ -96,7 +96,7 @@ const Streats = () => {
                 </p>
               </div>
             </SplideSlide>
-            <SplideSlide>
+            <SplideSlide data-aos="flip-right">
               <div className="text-center img_hover_streats">
                 <img src={Street_7} alt="Street_1" />
                 <p className="text-white ff_philo fs_2x4l fw-bold mt-3">
