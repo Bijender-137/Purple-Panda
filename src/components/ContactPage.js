@@ -6,7 +6,7 @@ import ContactHero from "./ContactHero";
 import BackToTop from "./BackToTop";
 const ContactPage = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <BackToTop/>
       <ContactHero />
       <Contact />

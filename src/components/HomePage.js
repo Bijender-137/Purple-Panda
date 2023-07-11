@@ -19,7 +19,7 @@ import Potent from "./Potent";
 import BackToTop from "./BackToTop";
 const HomePage = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <BackToTop/>
       <HeroSection />
       <Streats />

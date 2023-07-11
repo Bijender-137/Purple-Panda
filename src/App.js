@@ -18,20 +18,12 @@ function App() {
       duration: 1500,
     });
   }, []);
-  // return (
-  //   <div className="overflow-hidden">
-  //     <Routes>
-  //       <Route path="/" element={<HomePage />} />
-  //       <Route path="/ContactPage" element={<ContactPage />} />
-  //     </Routes>
-  //   </div>
-  // );
   const [loader, setloader] = useState(false);
   useEffect(() => {
     setloader(true);
     setTimeout(() => {
       setloader(false);
-    }, 4000);
+    }, 100);
   }, []);
 
   return (
@@ -44,12 +36,12 @@ function App() {
             </div>
           </div>
         ) : (
-          <>
+          <div className="overflow-hidden">
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/ContactPage" element={<ContactPage />} />
             </Routes>
-          </>
+          </div>
         )}
       </>
     </>
