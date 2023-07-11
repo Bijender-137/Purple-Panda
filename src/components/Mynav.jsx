@@ -123,12 +123,14 @@ const Mynav = () => {
                   <div className="ms-lg-4 mt-4 mt-lg-0">
                     <String />
                   </div>
-                  <button
-                    onClick={() => setopen(!open)}
-                    className="ff_mons fw-bold text-white fs_2xl border-0 btn_nav ms-lg-4 trasition mt-4 mt-lg-0"
-                  >
-                    SIGN IN
-                  </button>
+                  <div className="transition">
+                    <button
+                      onClick={() => setopen(!open)}
+                      className="ff_mons fw-bold text-white fs_2xl border-0 btn_nav ms-lg-4 trasition mt-4 mt-lg-0"
+                    >
+                      SIGN IN
+                    </button>
+                  </div>
                   <div className="d-flex align-items-center input_parent pe-3 d-sm-none">
                     <input
                       type="text"
