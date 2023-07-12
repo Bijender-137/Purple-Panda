@@ -23,7 +23,7 @@ function Panda() {
               </div>
             </Col>
             <Col xs={10} sm={6} lg={4} className="mx-auto my-3">
-              <div className="img_hover"data-aos="zoom-in">
+              <div className="img_hover mt-5 mt-sm-0"data-aos="zoom-in">
                 <img className=" w-100" src={leaf_panda} alt="leaf_panda" />
                 <div className=" d-flex justify-content-center">
                   <p className=" mb-0 text-center ff_philo fw-bold fs_3x2l text-white mx_340">
@@ -34,7 +34,7 @@ function Panda() {
               </div>
             </Col>
             <Col xs={10} sm={6} lg={4} className="mx-auto my-3">
-              <div className="img_hover"data-aos="flip-left">
+              <div className="img_hover mt-5 mt-lg-0"data-aos="flip-left">
                 <img className=" w-100" src={cute_panda} alt="two_panda" />
                 <div className=" d-flex justify-content-center">
                   <p className=" mb-0 text-center ff_philo fw-bold fs_3x2l text-white mx_340">

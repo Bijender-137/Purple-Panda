@@ -131,7 +131,7 @@ const Mynav = () => {
                       SIGN IN
                     </button>
                   </div>
-                  <div className="d-flex align-items-center input_parent pe-3 d-sm-none">
+                  <div className="d-flex align-items-center input_parent pe-3 mt-4 d-sm-none">
                     <input
                       type="text"
                       placeholder="Search here.."
