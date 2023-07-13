@@ -11,9 +11,9 @@ function Footer() {
             <div className="col-md-8 mx-auto" data-aos="zoom-in">
               <article className="d-flex flex-column align-items-center ">
                 <span>
-                  <a href="#">
+                  <Link to="/">
                     <img width={196} src={logo} alt="logo" />
-                  </a>
+                  </Link>
                 </span>
                 <p className="text-center ff_mons fw-normal fs_1x6l text-white mt-4">
                   Tempor cras et scelerisque bibendum. Sapien proin pharetra

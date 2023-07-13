@@ -35,9 +35,9 @@ const Mynav = () => {
         <nav className="pt-3">
           <Container>
             <div className="d-flex align-items-center justify-content-between">
-              <a href="#">
+              <Link to="/">
                 <img src={Logo} alt="Logo" />
-              </a>
+              </Link>
               <div className="d-flex align-items-center d-lg-none">
                 <div className="d-flex align-items-center input_parent pe-3 ms-3 d-none d-sm-flex d-lg-none">
                   <input
