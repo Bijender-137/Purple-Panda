@@ -37,7 +37,7 @@ function Potent() {
               <img className=" img_height" src={ontop} alt="top" />
               <img className=" img_height" src={ontop} alt="top" />
               <img className=" img_height" src={ontop} alt="top" />
-            </div>{" "}
+            </div>
           </div>
           <div className=" position-absolute top-50 start-50 translate-middle">
             <div className=" position-relative">
@@ -50,9 +50,9 @@ function Potent() {
                 />
               </span>
             </div>
-            <span className="  ">
+            <span className="transition">
               <a
-                className=" white_space main_btn fw-bold px-4 fs_2xl ff_mons "
+                className="white_space main_btn fw-bold px-4 fs_2xl ff_mons "
                 href="#"
               >
                 Take me to space cannabis

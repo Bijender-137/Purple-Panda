@@ -14,7 +14,7 @@ const Classifications = () => {
             <Col lg={6}>
               <div className="position-relative z_index"data-aos="flip-right">
                 <img
-                  className="position-absolute z_index_minus flower_img_classification"
+                  className="position-absolute z_index_minus flower_img_classification plant_ani"
                   src={Flower_img}
                   alt="Flower_img"
                 />

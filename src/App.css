@@ -195,17 +195,21 @@ nav div ul li a:hover {
   background-color: #9F00FF;
   filter: blur(134.5px);
 }
-.animat_topbtn{
+
+.animat_topbtn {
   animation: topbtn 3s linear 0.1s infinite forwards;
 }
+
 @keyframes topbtn {
-  0%{
+  0% {
     transform: translateY(0px);
   }
-  50%{
+
+  50% {
     transform: translateY(-15px);
   }
-  100%{
+
+  100% {
     transform: translateY(0);
   }
 }
@@ -338,7 +342,7 @@ nav div ul li a:hover {
 }
 
 .transition {
-  transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out !important;
 }
 
 .order_box_shadow:hover svg path {
@@ -354,7 +358,7 @@ nav div ul li a:hover {
   position: absolute;
   height: 1200px;
   width: 10px;
-  background-color: white;
+  background: var(--linear, linear-gradient(132deg, #AA1FFE 0%, #DD22E6 100%));
   filter: blur(8px);
   left: 40%;
   transform: rotateZ(-45deg);
@@ -384,6 +388,31 @@ nav div ul li a:hover {
   background-repeat: no-repeat;
 }
 
+.img_hover_streats:hover img {
+  transform: scale(0.9);
+}
+
+.trasform_scale_img:hover {
+  transform: scale(0.9);
+}
+
+.plant_ani {
+  animation-name: plant;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes plant {
+  0% {
+    transform: scale(0.3);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
 
 @media (min-width:575.98px) {
   .git_img_position {

@@ -47,21 +47,21 @@ const About = () => {
             className="d-flex justify-content-end flex-column alignie"
           >
             <div className="d_grid gap-3 " data-aos="flip-left">
-              <div className="grid _item1 text-end pt-3">
-                <img className="w_sm_100" src={img1} alt="img1" />
+              <div className="text-end pt-3">
+                <img className="w_sm_100 trasform_scale_img transition" src={img1} alt="img1" />
               </div>
-              <div className="grid _item3 pt-3">
-                <img className="w-100" src={img3} alt="img3" />
+              <div className="pt-3">
+                <img className="w-100 trasform_scale_img transition" src={img3} alt="img3" />
               </div>
-              <div className="gri d_item4 text-end pt-3">
-                <img className="w_sm_100" src={img4} alt="img4" />
+              <div className="text-end pt-3">
+                <img className="w_sm_100 trasform_scale_img transition" src={img4} alt="img4" />
               </div>
-              <div className="grid _item2">
-                <img className="w_sm_100" src={img2} alt="img2" />
+              <div>
+                <img className="w_sm_100 trasform_scale_img transition" src={img2} alt="img2" />
               </div>
 
-              <div className="gri d_item5 pt-3">
-                <img className="w_sm_100" src={img5} alt="img5" />
+              <div className="pt-3">
+                <img className="w_sm_100 trasform_scale_img transition" src={img5} alt="img5" />
               </div>
             </div>
           </Col>

@@ -54,13 +54,13 @@ const Popular = () => {
             extensions={{ AutoScroll }}
           >
             <SplideSlide className="px-3 py-2 "data-aos="fade-right">
-              <div className="popular_box_shadow popular_hover_img px-2 pt-2 pb-2">
+              <div className="popular_box_shadow popular_hover_img px-2 pt-2 pb-2 transition">
                 <img className="w-100 pt-1" src={Popular_1} alt="Popular_1" />
                 <p className="text-white ff_mons fs_2x4l fw-normal mt-3 mb-0">
                   Stoner Patch(500mg)
                 </p>
                 <p className="ff_mons fw-bold fs_2x4l clr_shop_now">$20.00</p>
-                <div className="pt-2 pb-4">
+                <div className="pt-2 pb-4 transition">
                   <button className="ff-bold fs_1x6l ff_mons text-white btn_nav border-0 mt-3 mt-lg-4">
                     ADD TO CART
                   </button>
@@ -68,7 +68,7 @@ const Popular = () => {
               </div>
             </SplideSlide>
             <SplideSlide className="px-3 py-2">
-              <div className="popular_box_shadow popular_hover_img px-2 pt-2 pb-2"data-aos="fade-up">
+              <div className="popular_box_shadow popular_hover_img px-2 pt-2 pb-2 transition"data-aos="fade-up">
                 <img className="w-100 pt-1" src={Popular_2} alt="Popular_1" />
                 <p className="text-white ff_mons fs_2x4l fw-normal mt-3 mb-0">
                   Stoner Patch(500mg)
@@ -82,7 +82,7 @@ const Popular = () => {
               </div>
             </SplideSlide>
             <SplideSlide className="px-3 py-2">
-              <div className="popular_box_shadow popular_hover_img px-2 pt-2 pb-2"data-aos="fade-up">
+              <div className="popular_box_shadow popular_hover_img px-2 pt-2 pb-2 transition"data-aos="fade-up">
                 <img className="w-100 pt-1" src={Popular_3} alt="Popular_1" />
                 <p className="text-white ff_mons fs_2x4l fw-normal mt-3 mb-0">
                   Stoner Patch(500mg)
@@ -96,7 +96,7 @@ const Popular = () => {
               </div>
             </SplideSlide>
             <SplideSlide className="px-3 py-2">
-              <div className="popular_box_shadow popular_hover_img px-2 pt-2 pb-2"data-aos="fade-left">
+              <div className="popular_box_shadow popular_hover_img px-2 pt-2 pb-2 transition"data-aos="fade-left">
                 <img className="w-100 pt-1" src={Popular_3} alt="Popular_1" />
                 <p className="text-white ff_mons fs_2x4l fw-normal mt-3 mb-0">
                   Stoner Patch(500mg)

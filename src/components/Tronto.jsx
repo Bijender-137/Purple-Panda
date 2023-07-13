@@ -22,7 +22,7 @@ const Tronto = () => {
         <Row className='pt-lg-5 pt-4'>
           <Col md={6} className="position-relative">
             <img
-              className="position-absolute leaf_1_set"
+              className="position-absolute leaf_1_set plant_ani"
               src={trontoleaf1}
               alt="trontoleaf1"
             />
@@ -57,7 +57,7 @@ const Tronto = () => {
           </Col>
           <Col md={6} className='position-relative pt-md-0 pt-4'>
             <img
-              className="position-absolute leaf_2_set"
+              className="position-absolute leaf_2_set plant_ani"
               src={trontoleaf2}
               alt="trontoleaf1"
             />
