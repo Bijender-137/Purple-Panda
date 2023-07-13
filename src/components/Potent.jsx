@@ -19,7 +19,7 @@ function Potent() {
           </div>
         </Container>
         <div className=" position-relative">
-          <div class="marquee mt-lg-5 pt-5  ">
+          <div class="marquee mt-lg-5">
             <div class="marquee__group">
               <img className=" img_height" src={ontop} alt="top" />
               <img className=" img_height" src={ontop} alt="top" />

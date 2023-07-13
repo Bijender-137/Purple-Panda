@@ -14,7 +14,7 @@ const About = () => {
         <Row className="align-items-center flex-lg-row flex-column-reverse">
           <Col lg={6} className="pt-lg-0 pt-4">
             <div
-              className="bg_blur py-md-5 py-4 px-xl-5 px-md-4 px-2 side_line position-relative text-lg-start text-center"
+              className="bg_blur py-md-5 py-4 px-xl-5 px-md-4 px-2 side_line position-relative text-lg-start text- center"
               data-aos="fade-right"
             >
               <h1 className="ff_philo fs_4x8l fw-bold clr_white ps-3  mb-0">
@@ -37,7 +37,7 @@ const About = () => {
                 our store.
               </p>
               <div className="pt-xl-2">
-                <button className="ff_mons fw-semibold fs_2xl clr_white linear_bg_btn border-0 py_14 px_30 mt-lg-5 mt-4 buttn_hover text_hvr">
+                <button className="ff_mons fw-semibold fs_2xl clr_white linear_bg_btn border-0 py_14 px_30 mt-lg-5 mt-4 buttn_hover text_hvr ms-3">
                   READ MORE
                 </button>
               </div>

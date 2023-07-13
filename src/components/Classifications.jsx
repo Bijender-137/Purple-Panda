@@ -18,10 +18,10 @@ const Classifications = () => {
                   src={Flower_img}
                   alt="Flower_img"
                 />
-                <div className="classification_box_shadow position-relative z_ index before_line overflow-hidden">
+                <div className="classification_box_shadow position-relative  before_line overflow-hidden">
                   <div className="px-5 ms-3 py-4 my-3">
-                    <h2 className="ff_philo fw-bold fs_4x8l text-white text_border mb-0">
-                      Our <span className="clr_shop_now">
+                    <h2 className="ff_philo fw-bold fs_4x8l text-white  mb-0">
+                      <span className="text_border">Our</span> <span className="clr_shop_now">
                         Classifications
                       </span>
                     </h2>

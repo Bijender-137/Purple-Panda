@@ -27,10 +27,10 @@ const Cannebies = () => {
           <Row className="align-items-center flex-lg-row flex-column-reverse pt-5">
             <Col lg={7} className="pt-lg-0 pt-4" >
               <div className="bg_blur py-md-5 py-4 px-xl-5 px-md-4 px-2 side_line position-relative overflow-hidden" data-aos="fade-right">
-                <h1 className="ff_mons fs_3x2l fw-semibold clr_white mb-0 text-lg-start text-center">
+                <h1 className="ff_mons fs_3x2l fw-semibold clr_white mb-0">
                   Strain <span className="clr_linear">Families</span>
                 </h1>
-                <p className="ff_mons fs_1x6l fw-normal clr_white pt-3 lh_156 pe-xl-4 text-lg-start text-center">
+                <p className="ff_mons fs_1x6l fw-normal clr_white pt-3 lh_156 pe-xl-4">
                   We stock the three main families of cannabis at Purple Panda,
                   each of which has its own qualities.
                 </p>
