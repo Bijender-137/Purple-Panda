@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
 const Mynav = () => {
   const [open, setopen] = useState(true);
   if (open) {
-    document.body.style.overflow = "visible";
+    document.body.classList.remove ("overflow-hidden");
   } else {
-    document.body.classList.add("overflow_hidden");
+    document.body.classList.add("overflow-hidden");
   }
   return (
     <>
