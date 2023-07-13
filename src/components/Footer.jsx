@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 import logo from "../assets/img/svg/logo.svg";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
